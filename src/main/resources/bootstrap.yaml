@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: youtube
+  profiles:
+    active: def
+  cloud:
+    config:
+      uri: http://localhost:9999
+      username: daulet
+      password: asd
+      fail-fast: true
+      retry:
+        max-interval: 10000
+        max-attempts: 10
+encrypt:
+  key: ASDFGHJKLPOIUYTREQ!@^!@$343423434
